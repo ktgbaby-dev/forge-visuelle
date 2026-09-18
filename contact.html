@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Forge Visuelle</title>
+<meta name="description" content="Get in touch with Irene Deborah at Forge Visuelle to start building a brand identity people remember.">
+
+<link rel="icon" type="image/png" href="assets/forge-visuelle-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/forge-visuelle-logo.png" alt="Forge Visuelle logo" class="nav-logo">
+      <span class="nav-brand-text"><span class="forge">Forge</span> <span class="visuelle">Visuelle</span></span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="nav-cta active">Contact</a></li>
+    </ul>
+
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow">Let's Build Something</span>
+      <h1>Your brand deserves to be <span class="accent">unmistakable.</span></h1>
+      <p style="max-width:560px; margin:14px auto 0;">Reach out and tell Irene a little about what you're building. Every brand starts with a conversation.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container contact-grid">
+
+      <div class="contact-info-card">
+        <h3>Get In Touch</h3>
+        <p style="margin-bottom:20px;">Prefer to skip the form? Reach out directly — Irene reads every message herself.</p>
+
+        <div class="contact-line">
+          <span class="label">Name</span>
+          <span>Irene Deborah</span>
+        </div>
+        <div class="contact-line">
+          <span class="label">Email</span>
+          <a href="mailto:irenedeborah30@gmail.com">irenedeborah30@gmail.com</a>
+        </div>
+        <div class="contact-line">
+          <span class="label">Phone</span>
+          <a href="tel:+2349065268759">+234 906 526 8759</a>
+        </div>
+      </div>
+
+      <div class="contact-form-card">
+        <h3>Send a Message</h3>
+        <p class="form-note">This form has no backend — submitting it opens your email client with your message pre-filled, ready to send to Irene directly.</p>
+
+        <form id="contact-form">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me a bit about your brand and what you're looking to build..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Open Email to Send</button>
+          <p id="form-status" class="form-status"></p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <a href="index.html" class="footer-brand">
+      <img src="assets/forge-visuelle-logo.png" alt="Forge Visuelle logo" class="footer-logo">
+      <span class="footer-brand-text"><span class="forge">Forge</span> Visuelle</span>
+    </a>
+    <ul class="footer-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <p class="footer-note">© 2026 Forge Visuelle. Built by hand, not mass-produced.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
